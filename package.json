@@ -1,0 +1,25 @@
+{
+  "name": "ara-ara-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.8.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.3",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.0.0",
+    "opusscript": "^0.0.8",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "node": "^16.13.2"
+  },
+  "description": ""
+}
