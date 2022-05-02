@@ -5,6 +5,7 @@ const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_
 const { joinVoiceChannel } = require('@discordjs/voice');
 const { getVoiceConnection } = require('@discordjs/voice');
 const voiceDiscord = require('@discordjs/voice');
+require('ffmpeg- static ');
 let timerOn = false;
 let timeout;
 
